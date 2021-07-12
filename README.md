@@ -24,6 +24,10 @@ Pull request kabul edilir. Büyük değişiklikler için lütfen neyi değiştir
 # Bölüm Sonu Alıştırması
 İndex.html güncellendi, contact ve about-us dosyaları eklendi, README güncellendi
 
+# Google Ana Sayfa Tasarım Eklendi
+
+Google Ana Sayfa Tasarım klasörü içinde index.html dosyası olarak eklenmiştir
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
