@@ -21,6 +21,9 @@ code .
 ## Contributing
 Pull request kabul edilir. Büyük değişiklikler için lütfen neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
+#Bölüm Sonu Alıştırması
+İndex.html güncellendi, contact ve about-us dosyaları eklendi, README güncellendi
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
