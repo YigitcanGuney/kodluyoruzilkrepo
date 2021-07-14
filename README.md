@@ -28,6 +28,9 @@ Pull request kabul edilir. Büyük değişiklikler için lütfen neyi değiştir
 
 Google Ana Sayfa Tasarım klasörü içinde index.html dosyası olarak eklenmiştir
 
+# CSS ÖDEV 1
+Css Odev 1 dosyasında ödevin tüm detayları mevcuttur.
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
