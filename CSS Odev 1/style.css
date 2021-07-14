@@ -1,0 +1,88 @@
+/*H Css */
+.h1-color {
+    color: #52006A;
+    
+}
+
+.h2-color {
+    color: #CD113B;
+}
+
+a {
+    text-decoration: none;
+    color: #FF7600;
+    font-size: 20px;
+}
+
+/*H1 Css End*/
+
+/*text-align  Css */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+/*text-align  Css End */
+
+/* ul list css*/
+.list-style {
+    list-style-type: none;
+}
+
+/* ul list css End*/
+
+/* display css*/
+.inline {
+    display: inline;
+}
+
+/* display css end*/
+
+/* Margin css*/
+.margin-left {
+    margin-left: 5%;
+}
+.margin-rigt {
+    margin-right: 5%;
+}
+/* Margin css end*/
+
+/*Ana Sayfa article Css */
+.anasayfa-img{
+    width: 300px;
+    height: 300px;
+}
+
+.anasayfa-article{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.article-p{
+    color: #FFA900;
+}
+
+/*Ana Sayfa article Css End */
+
+/*  Footer Css*/
+
+footer {
+    position: relative;
+    margin-top: 375px; 
+    height: 55px;
+    clear:both;
+    color: #FFA900;
+    background-color: #fae7c0;
+    
+}
+
+.footer-p {
+    margin-top: 5%;
+}
+
+/*  Footer Css end*/
+
+
+
