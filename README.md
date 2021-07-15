@@ -31,6 +31,9 @@ Google Ana Sayfa Tasarım klasörü içinde index.html dosyası olarak eklenmiş
 # CSS ÖDEV 1
 Css Odev 1 dosyasında ödevin tüm detayları mevcuttur.
 
+# CSS ÖDEV 2 GOOGLE ANA SAYFA
+GOogle Ana Sayfa Css Odev 2 klasöründe tüm dosyalar mevcuttur.
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)

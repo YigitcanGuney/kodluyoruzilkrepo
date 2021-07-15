@@ -1,0 +1,160 @@
+/* Body CSS */
+body {
+    font-family: arial,sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* top menu CSS */
+.topmenu {
+    font-size: 13px;
+    margin: 20px 0 0 10px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    margin-right: 10px;
+}
+.topmenu a {
+    opacity: 0.75;
+    padding-left: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+#logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -139px -45px;
+    opacity: .55;
+    background-size: 528px 68px; 
+}
+
+
+.btn {
+    margin-left: 5px;
+    border: 1px solid #2968d4;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top,#327bfa,#3571d8);
+    padding: 7px 12px;
+    border-radius: 2px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* topmenu css End*/
+
+/* clearfix css */
+.clearfix {
+    clear: both;
+}
+/* clearfix css end*/
+
+/* container css */
+.container {
+    width: 1000px;
+    margin: 150px auto 0;
+    
+}
+
+.input-area {
+    
+    height: 35px;
+    padding: 4px;
+    margin: 4% 20% 0 20%;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+}
+
+.input-area:hover {
+    -webkit-box-shadow: -3px 6px 11px -1px rgba(133, 132, 132, 0.34); 
+    box-shadow: -3px 6px 11px -1px rgba(133, 132, 132, 0.34);
+}
+
+.search img {
+    margin: 6px 0 0 6px;
+   width: 20px;
+   height: 20px;
+   float: left;
+}
+
+.input input {
+    height:30px ;
+    border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.mic img {
+    margin-top: -27px;
+    margin-right: 5px;
+    width: 15px;
+    height: 20px;
+    float: right;
+}
+
+.mic img:hover{
+    cursor: pointer;
+}
+
+.buttonarea {
+    margin-top: 3%;
+}
+
+.buttonarea a{
+    border-radius: 4px;
+    padding: 10px;
+    opacity: 0.75;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #ebecec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonarea a:hover{
+    border: 1px solid #b0b1b4;
+}
+/* cotainer css end/
+
+/* footer css*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #F2F2F2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    
+}
+
+.footer-a{
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.footer-a:active {
+    color: red;
+}
+
+/*footer css end */
+
