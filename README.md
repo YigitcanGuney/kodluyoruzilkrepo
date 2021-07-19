@@ -32,7 +32,10 @@ Google Ana Sayfa Tasarım klasörü içinde index.html dosyası olarak eklenmiş
 Css Odev 1 dosyasında ödevin tüm detayları mevcuttur.
 
 # CSS ÖDEV 2 GOOGLE ANA SAYFA
-GOogle Ana Sayfa Css Odev 2 klasöründe tüm dosyalar mevcuttur.
+Google Ana Sayfa Css Odev 2 klasöründe tüm dosyalar mevcuttur.
+
+# BOOTSTRAP ODEV 1
+Bootstrap Odev 1 klasörü içinde tüm dosyalar mevcuttur.
 
 ## Licence 
 
