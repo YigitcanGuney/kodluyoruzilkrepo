@@ -1,0 +1,87 @@
+.navbar {
+    height: 54px !important;
+}
+
+.navbar-brand {
+    margin-left: 192px  !important;
+}
+
+.middlearea {
+    max-height: 200px !important;
+}
+
+.storyphoto {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid rgb(238, 39, 82);
+        margin-right: 7px;
+        
+}
+
+.storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.post-header {
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%;
+}
+
+.post-header-font {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.post-icons {
+    color: black;
+    position: relative;
+    font-size: 23px;
+}
+
+.post-like-img {
+    width: 23px; 
+    height: 23px; 
+    border-radius: 50%
+}
+
+.post-footer {
+    color: rgb(139, 133, 133);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                  'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.post-footer-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.sticky-sidebar {
+    width: 100%;
+    position: fixed;
+    left: 50%;
+}
+
+.sidebar-profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-left: -15px;
+}
+
+.small-profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+  
+
