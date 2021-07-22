@@ -40,6 +40,9 @@ Bootstrap Odev 1 klasörü içinde tüm dosyalar mevcuttur.
 # BOOTSTRAP ODEV 2 Instagram Clone
 Bootstrap Odev 2 instagram clone klasörü içinde tüm dosyalar mevcuttur.
 
+# BOOTSTRAP ODEV 3 LinkedIn Clone
+Bootstrap Linkedin Clone klasörü içinde tüm dosyalar mevcuttur.
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
