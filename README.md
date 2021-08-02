@@ -46,6 +46,10 @@ Bootstrap Linkedin Clone klasörü içinde tüm dosyalar mevcuttur.
 # JAVASCRİPT ODEV 1 EKLENDİ
 JavaScript Ödev 1 Klasörü içinde tüm dosyalar mevcuttur.
 
+# JAVASCRİPT ODEV 2 EKLENDİ
+
+TODO list Odev Klasörü içinde tüm dosyalar mevcuttur.
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
