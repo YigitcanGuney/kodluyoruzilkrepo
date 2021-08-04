@@ -50,6 +50,10 @@ JavaScript Ödev 1 Klasörü içinde tüm dosyalar mevcuttur.
 
 TODO list Odev Klasörü içinde tüm dosyalar mevcuttur.
 
+# JAVASCRİPT ODEV 3 EKLENDİ
+
+Asian Kitchen Menu Odev 3 klasöründe tüm dosyalar mevcuttur.
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)

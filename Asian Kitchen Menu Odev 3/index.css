@@ -1,0 +1,41 @@
+body{
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 120px;
+   
+    
+}
+.title h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff6a23;
+}
+
+.rounded {
+    border-radius: 7% !important;
+}
+
+.menu-title{
+    border-bottom: 1px solid #222;
+}
+.menu-title h4 {
+    color: #e00a00;
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    line-height: 1.2 !important;
+    
+}
+
+footer {
+    background-color: #dfdddd;
+    height: 100px;
+    color: #2f2f2f;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
