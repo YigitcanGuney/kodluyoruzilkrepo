@@ -54,6 +54,10 @@ TODO list Odev Klasörü içinde tüm dosyalar mevcuttur.
 
 Asian Kitchen Menu Odev 3 klasöründe tüm dosyalar mevcuttur.
 
+# REACT ODEV 1 EKLENDİ
+
+src klasörü altında tüm dosyalar mevcuttur
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
