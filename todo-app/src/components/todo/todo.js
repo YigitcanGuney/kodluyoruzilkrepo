@@ -3,54 +3,71 @@ import React, {useState, useEffect} from 'react'
 import '../../App.css';
 
 import Header from './header/header'
-import Section from './section/section';
+import Main from './main/main';
 import Footer from './footer/footer'
 
 function Todo() {
 
-    const [todos, setTodos] = useState([
-        {  text: "Learn JavaScript", isDone: false },
-        {  text: "Learn React", isDone: true },
-        {  text: "Have a life!", isDone: false },
-      ]);
-      let filter;
-    
-      useEffect(() => {console.log(todos)}, [todos]);
-    
-      const [filterText, setFilterText] = useState("");
-      const [filterData, setFilterData] = useState("all");
-    
-      filter = todos.filter((item) => {
+  const[todolist, setTodoList] = useState(
+    [
+        {
+            todoText : "HTML",
+            isDone : false
+        },
+        {
+            todoText : "CSS",
+            isDone : false
+        },
+        {
+            todoText : "JAVASCRİPT",
+            isDone : true
+        },
+        {
+            todoText : "REACT",
+            isDone : false
+        },
+    ])
+
+    useEffect(() => {
+        console.log(todolist)
+    }, [todolist])
+
+    let filterItem;
+    const [filterChecked, setFilterChecked] = useState("");
+
+    filterItem = todolist.filter((item) => {
         return Object.keys(item).some((key) =>
           item[key]
             .toString()
             .toLowerCase()
-            .includes(filterText.toLocaleLowerCase())
+            .includes(filterChecked.toLocaleLowerCase())
         );
       });
-    
-      filter = todos.filter((item) => {
-        if (filterData === "all") {
-          return todos;
-        } else if (filterData === "active") {
+    console.log( filterItem)
+
+
+    const [filterCategory, setFilterCategory] = useState();
+
+    filterItem= todolist.filter((item) => {
+        if (filterCategory === "all") {
+          return todolist;
+        } else if (filterCategory === "active") {
           return item.isDone === false;
         } else {
           return item.isDone === true;
         }
       });
 
+    
 
         
     return (
-        <div>
-            <section className="todoapp">
-                <Header todos={todos} setTodos={setTodos} />
-                <Section todos={filter} setTodos={setTodos} filterData={filterData} setFilterData={setFilterData} />
-            </section>
-
-            <Footer/>
-          
-        </div>
+      <>
+        <Header todoList = {todolist} setTodoList={setTodoList}/>
+        <Main todoList={filterItem} setTodoList={setTodoList}/>
+        <Footer todoList={filterItem} setTodoList={setTodoList} filterCategory={filterCategory} setFilterCategory={setFilterCategory}/>
+        
+     </>
     )
 }
 
