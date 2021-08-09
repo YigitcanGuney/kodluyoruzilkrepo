@@ -46,7 +46,7 @@ function Todo() {
     console.log( filterItem)
 
 
-    const [filterCategory, setFilterCategory] = useState();
+    const [filterCategory, setFilterCategory] = useState("all");
 
     filterItem= todolist.filter((item) => {
         if (filterCategory === "all") {

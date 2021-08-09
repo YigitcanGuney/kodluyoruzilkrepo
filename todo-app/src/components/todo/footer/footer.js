@@ -25,7 +25,7 @@ function Footer({todoList, setTodoList, filterCategory, setFilterCategory}) {
 			    </li>
                 <li>
 				    <a onClick={() => setFilterCategory("completed")}
-              className={filterCategory === "completed" ? "selected" : null}>Completed</a>
+                className={filterCategory === "completed" ? "selected" : null}>Completed</a>
 			    </li>
             </ul>
 

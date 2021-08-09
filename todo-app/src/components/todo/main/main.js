@@ -46,7 +46,13 @@ function Section({ todoList, setTodoList   }) {
                           onChange={() =>checkTodo(index,item) } 
                            />
                           <label>{item.todoText}</label>
-                          <button className="destroy"></button>
+                          <button 
+                            onClick={() => {
+                              todoList.splice(index,1)
+                              setTodoList(todoList)
+                              console.log(todoList)
+                          }}
+                          className="destroy"></button>
                       </div>
                   </li>
               )
