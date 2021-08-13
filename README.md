@@ -62,6 +62,10 @@ src klasörü altında tüm dosyalar mevcuttur
 
 todo-app klasörü içinde tüm dosyalar mevcuttur
 
+# REACT WEATHER-APP ODEVİ EKLENDİ
+
+weather-app klasörü içinde tüm dosyalar mevcuttur (7 günlük api verisi çekerken hata aldığım için tek gün olarak yaptım)
+
 ## Licence 
 
 [MIT](https://choosealicense.com/licenses/mit/)
