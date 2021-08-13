@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://images.pexels.com/photos/2028885/pexels-photo-2028885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content {
+  background : rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  
+}
+
+.content h1 {
+  margin: 0;
+  color: rgba(252, 214, 44, 0.938);
+  font-size: 3.5rem;
+}
+
+.selectcity {
+    padding: 10px 30px;
+    border: 1px solid rgba(252, 214, 44, 0.938);
+    background-color: transparent;
+    outline: none;
+    font-size: 1.5rem;
+    color: rgba(252, 214, 44, 0.938) ;
+}
+
+.selectcity option {
+  background-color: rgba(252, 214, 44, 0.938);
+  color: #222;
+}
+
+.selectcity:hover {
+  border: 2px solid #222;
+}
+
+.weather-container {
+  margin: 5px 0 !important;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.658);
+}
+
+.weather-card {
+  margin: 5px 10px;
+}
+
+.weather-card:first-child {
+  border: 1px solid #222;
+}
+
+.weather-card:hover {
+  border: 1px solid rgba(211, 177, 25, 0.938);
+}
+
+.current {
+  margin: 0.5rem;
+}
+
+.max + .min {
+    margin: 5px 10px;
+}
+
+
